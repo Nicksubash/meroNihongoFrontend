@@ -5,6 +5,8 @@ import AnimatedButton from "./AnimateButton";
 import Modal from '../modal/modal';
 import LoginForm from '../Auth/LoginForm';
 import RegisterForm from '../Auth/RegisterForm';
+import N5 from "../../pages/JLPT/N5"
+import { nav } from 'framer-motion/client';
 
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -47,6 +49,11 @@ export default function Header() {
         navigate('/profile');
     };
 
+    const handleJlptLevel= (level) =>{
+        navigate(`/vocabulary/${level.toLowerCase()}`);
+        setIsJlptOpen(false);
+    }
+
     return (
         <>
             <header className="sticky top-0 z-50 backdrop-blur-lg shadow-lg w-full mx-auto">
@@ -68,14 +75,13 @@ export default function Header() {
                     } md:flex md:flex-row md:space-x-6 gap-8`}>
                         <Link to="/" className="text-2xl text-cyan-600 hover:text-cyan-700">Home</Link>
                         <Link to="/about" className="text-2xl text-cyan-600 hover:text-cyan-700">About Us</Link>
-                        <Link to="/vocabulary" className="text-2xl text-cyan-600 hover:text-cyan-700">Vocabulary</Link>
+                        {/* <Link to="/vocabulary" className="text-2xl text-cyan-600 hover:text-cyan-700">Vocabulary</Link> */}
 
                         <div className="relative">
                             <button 
                                 className="flex items-center text-2xl text-cyan-600 hover:text-cyan-700"
                                 onClick={() => setIsJlptOpen(!isJlptOpen)}
                                 onMouseEnter={() => setIsJlptOpen(true)}
-                                onMouseLeave={() => setIsJlptOpen(false)}
                             >
                                 JLPT
                                 <FaChevronDown className={`ml-1 transition-transform ${isJlptOpen ? 'rotate-180' : ''}`} />
@@ -90,9 +96,9 @@ export default function Header() {
                                     {['N1', 'N2', 'N3', 'N4', 'N5'].map((level) => (
                                         <Link
                                             key={level}
-                                            to={`/jlpt/${level.toLowerCase()}`}
+                                            to={`/vocabulary/${level.toLowerCase()}`}
                                             className="block px-4 py-2 text-gray-800 hover:bg-cyan-50"
-                                            onClick={() => setIsJlptOpen(false)}
+                                            onClick={() => handleJlptLevel(level)}
                                         >
                                             JLPT {level}
                                         </Link>

@@ -1,0 +1,796 @@
+{
+    "vocabulary": [
+      {
+        "japanese": "私 (わたし)",
+        "english": "I, me",
+        "nepali": "म",
+        "vietnamese": "tôi"
+      },
+      {
+        "japanese": "あなた",
+        "english": "you",
+        "nepali": "तपाईं",
+        "vietnamese": "bạn"
+      },
+      {
+        "japanese": "人 (ひと)",
+        "english": "person",
+        "nepali": "मानिस",
+        "vietnamese": "người"
+      },
+      {
+        "japanese": "先生 (せんせい)",
+        "english": "teacher",
+        "nepali": "शिक्षक",
+        "vietnamese": "giáo viên"
+      },
+      {
+        "japanese": "学生 (がくせい)",
+        "english": "student",
+        "nepali": "विद्यार्थी",
+        "vietnamese": "học sinh"
+      },
+      {
+        "japanese": "本 (ほん)",
+        "english": "book",
+        "nepali": "किताब",
+        "vietnamese": "sách"
+      },
+      {
+        "japanese": "水 (みず)",
+        "english": "water",
+        "nepali": "पानी",
+        "vietnamese": "nước"
+      },
+      {
+        "japanese": "食べ物 (たべもの)",
+        "english": "food",
+        "nepali": "खाना",
+        "vietnamese": "thức ăn"
+      },
+      {
+        "japanese": "飲み物 (のみもの)",
+        "english": "drink",
+        "nepali": "पेय",
+        "vietnamese": "đồ uống"
+      },
+      {
+        "japanese": "大きい (おおきい)",
+        "english": "big",
+        "nepali": "ठूलो",
+        "vietnamese": "lớn"
+      },
+      {
+        "japanese": "小さい (ちいさい)",
+        "english": "small",
+        "nepali": "सानो",
+        "vietnamese": "nhỏ"
+      },
+      {
+        "japanese": "高い (たかい)",
+        "english": "expensive, tall",
+        "nepali": "महँगो, अग्लो",
+        "vietnamese": "đắt, cao"
+      },
+      {
+        "japanese": "安い (やすい)",
+        "english": "cheap",
+        "nepali": "सस्तो",
+        "vietnamese": "rẻ"
+      },
+      {
+        "japanese": "良い (いい)",
+        "english": "good",
+        "nepali": "राम्रो",
+        "vietnamese": "tốt"
+      },
+      {
+        "japanese": "悪い (わるい)",
+        "english": "bad",
+        "nepali": "खराब",
+        "vietnamese": "xấu"
+      },
+      {
+        "japanese": "行く (いく)",
+        "english": "to go",
+        "nepali": "जानु",
+        "vietnamese": "đi"
+      },
+      {
+        "japanese": "来る (くる)",
+        "english": "to come",
+        "nepali": "आउनु",
+        "vietnamese": "đến"
+      },
+      {
+        "japanese": "見る (みる)",
+        "english": "to see",
+        "nepali": "हेर्नु",
+        "vietnamese": "nhìn"
+      },
+      {
+        "japanese": "聞く (きく)",
+        "english": "to listen, to ask",
+        "nepali": "सुन्नु, सोध्नु",
+        "vietnamese": "nghe, hỏi"
+      },
+      {
+        "japanese": "話す (はなす)",
+        "english": "to speak",
+        "nepali": "बोल्नु",
+        "vietnamese": "nói"
+      },
+      {
+        "japanese": "読む (よむ)",
+        "english": "to read",
+        "nepali": "पढ्नु",
+        "vietnamese": "đọc"
+      },
+      {
+        "japanese": "書く (かく)",
+        "english": "to write",
+        "nepali": "लेख्नु",
+        "vietnamese": "viết"
+      },
+      {
+        "japanese": "学校 (がっこう)",
+        "english": "school",
+        "nepali": "स्कूल",
+        "vietnamese": "trường học"
+      },
+      {
+        "japanese": "家 (いえ)",
+        "english": "house",
+        "nepali": "घर",
+        "vietnamese": "nhà"
+      },
+      {
+        "japanese": "会社 (かいしゃ)",
+        "english": "company",
+        "nepali": "कम्पनी",
+        "vietnamese": "công ty"
+      },
+      {
+        "japanese": "店 (みせ)",
+        "english": "shop",
+        "nepali": "पसल",
+        "vietnamese": "cửa hàng"
+      },
+      {
+        "japanese": "今日 (きょう)",
+        "english": "today",
+        "nepali": "आज",
+        "vietnamese": "hôm nay"
+      },
+      {
+        "japanese": "明日 (あした)",
+        "english": "tomorrow",
+        "nepali": "भोलि",
+        "vietnamese": "ngày mai"
+      },
+      {
+        "japanese": "昨日 (きのう)",
+        "english": "yesterday",
+        "nepali": "हिजो",
+        "vietnamese": "hôm qua"
+      },
+      {
+        "japanese": "時間 (じかん)",
+        "english": "time",
+        "nepali": "समय",
+        "vietnamese": "thời gian"
+      },
+      {
+        "japanese": "年 (とし)",
+        "english": "year",
+        "nepali": "वर्ष",
+        "vietnamese": "năm"
+      },
+      {
+        "japanese": "月 (つき)",
+        "english": "moon, month",
+        "nepali": "चन्द्रमा, महिना",
+        "vietnamese": "mặt trăng, tháng"
+      },
+      {
+        "japanese": "日 (ひ)",
+        "english": "day, sun",
+        "nepali": "दिन, सूर्य",
+        "vietnamese": "ngày, mặt trời"
+      },
+      {
+        "japanese": "今 (いま)",
+        "english": "now",
+        "nepali": "अहिले",
+        "vietnamese": "bây giờ"
+      },
+      {
+        "japanese": "前 (まえ)",
+        "english": "before, front",
+        "nepali": "अगाडि, पहिले",
+        "vietnamese": "trước, phía trước"
+      },
+      {
+        "japanese": "後 (あと)",
+        "english": "after, later",
+        "nepali": "पछि",
+        "vietnamese": "sau, sau đó"
+      },
+      {
+        "japanese": "上 (うえ)",
+        "english": "up, above",
+        "nepali": "माथि",
+        "vietnamese": "trên, phía trên"
+      },
+      {
+        "japanese": "下 (した)",
+        "english": "down, below",
+        "nepali": "तल",
+        "vietnamese": "dưới, phía dưới"
+      },
+      {
+        "japanese": "中 (なか)",
+        "english": "inside",
+        "nepali": "भित्र",
+        "vietnamese": "bên trong"
+      },
+      {
+        "japanese": "外 (そと)",
+        "english": "outside",
+        "nepali": "बाहिर",
+        "vietnamese": "bên ngoài"
+      },
+      {
+        "japanese": "右 (みぎ)",
+        "english": "right",
+        "nepali": "दायाँ",
+        "vietnamese": "phải"
+      },
+      {
+        "japanese": "左 (ひだり)",
+        "english": "left",
+        "nepali": "बायाँ",
+        "vietnamese": "trái"
+      },
+      {
+        "japanese": "一 (いち)",
+        "english": "one",
+        "nepali": "एक",
+        "vietnamese": "một"
+      },
+      {
+        "japanese": "二 (に)",
+        "english": "two",
+        "nepali": "दुई",
+        "vietnamese": "hai"
+      },
+      {
+        "japanese": "三 (さん)",
+        "english": "three",
+        "nepali": "तीन",
+        "vietnamese": "ba"
+      },
+      {
+        "japanese": "四 (し/よん)",
+        "english": "four",
+        "nepali": "चार",
+        "vietnamese": "bốn"
+      },
+      {
+        "japanese": "五 (ご)",
+        "english": "five",
+        "nepali": "पाँच",
+        "vietnamese": "năm"
+      },
+      {
+        "japanese": "六 (ろく)",
+        "english": "six",
+        "nepali": "छ",
+        "vietnamese": "sáu"
+      },
+      {
+        "japanese": "七 (しち/なな)",
+        "english": "seven",
+        "nepali": "सात",
+        "vietnamese": "bảy"
+      },
+      {
+        "japanese": "八 (はち)",
+        "english": "eight",
+        "nepali": "आठ",
+        "vietnamese": "tám"
+      },
+      {
+        "japanese": "九 (きゅう/く)",
+        "english": "nine",
+        "nepali": "नौ",
+        "vietnamese": "chín"
+      },
+      {
+        "japanese": "十 (じゅう)",
+        "english": "ten",
+        "nepali": "दस",
+        "vietnamese": "mười"
+      },
+      {
+        "japanese": "百 (ひゃく)",
+        "english": "hundred",
+        "nepali": "सय",
+        "vietnamese": "trăm"
+      },
+      {
+        "japanese": "千 (せん)",
+        "english": "thousand",
+        "nepali": "हजार",
+        "vietnamese": "nghìn"
+      },
+      {
+        "japanese": "万 (まん)",
+        "english": "ten thousand",
+        "nepali": "दस हजार",
+        "vietnamese": "mười nghìn"
+      },
+      {
+        "japanese": "円 (えん)",
+        "english": "yen, circle",
+        "nepali": "येन, गोलो",
+        "vietnamese": "yên, vòng tròn"
+      },
+      {
+        "japanese": "名前 (なまえ)",
+        "english": "name",
+        "nepali": "नाम",
+        "vietnamese": "tên"
+      },
+      {
+        "japanese": "友達 (ともだち)",
+        "english": "friend",
+        "nepali": "साथी",
+        "vietnamese": "bạn bè"
+      },
+      {
+        "japanese": "家族 (かぞく)",
+        "english": "family",
+        "nepali": "परिवार",
+        "vietnamese": "gia đình"
+      },
+      {
+        "japanese": "父 (ちち)",
+        "english": "father",
+        "nepali": "बुबा",
+        "vietnamese": "bố"
+      },
+      {
+        "japanese": "母 (はは)",
+        "english": "mother",
+        "nepali": "आमा",
+        "vietnamese": "mẹ"
+      },
+      {
+        "japanese": "兄 (あに)",
+        "english": "older brother",
+        "nepali": "दाइ",
+        "vietnamese": "anh trai"
+      },
+      {
+        "japanese": "姉 (あね)",
+        "english": "older sister",
+        "nepali": "दिदी",
+        "vietnamese": "chị gái"
+      },
+      {
+        "japanese": "弟 (おとうと)",
+        "english": "younger brother",
+        "nepali": "भाइ",
+        "vietnamese": "em trai"
+      },
+      {
+        "japanese": "妹 (いもうと)",
+        "english": "younger sister",
+        "nepali": "बहिनी",
+        "vietnamese": "em gái"
+      },
+      {
+        "japanese": "男 (おとこ)",
+        "english": "man",
+        "nepali": "पुरुष",
+        "vietnamese": "đàn ông"
+      },
+      {
+        "japanese": "女 (おんな)",
+        "english": "woman",
+        "nepali": "महिला",
+        "vietnamese": "phụ nữ"
+      },
+      {
+        "japanese": "子供 (こども)",
+        "english": "child",
+        "nepali": "बच्चा",
+        "vietnamese": "trẻ em"
+      },
+      {
+        "japanese": "犬 (いぬ)",
+        "english": "dog",
+        "nepali": "कुकुर",
+        "vietnamese": "chó"
+      },
+      {
+        "japanese": "猫 (ねこ)",
+        "english": "cat",
+        "nepali": "बिरालो",
+        "vietnamese": "mèo"
+      },
+      {
+        "japanese": "魚 (さかな)",
+        "english": "fish",
+        "nepali": "माछा",
+        "vietnamese": "cá"
+      },
+      {
+        "japanese": "鳥 (とり)",
+        "english": "bird",
+        "nepali": "चरा",
+        "vietnamese": "chim"
+      },
+      {
+        "japanese": "花 (はな)",
+        "english": "flower",
+        "nepali": "फूल",
+        "vietnamese": "hoa"
+      },
+      {
+        "japanese": "木 (き)",
+        "english": "tree",
+        "nepali": "रूख",
+        "vietnamese": "cây"
+      },
+      {
+        "japanese": "山 (やま)",
+        "english": "mountain",
+        "nepali": "पहाड",
+        "vietnamese": "núi"
+      },
+      {
+        "japanese": "川 (かわ)",
+        "english": "river",
+        "nepali": "नदी",
+        "vietnamese": "sông"
+      },
+      {
+        "japanese": "空 (そら)",
+        "english": "sky",
+        "nepali": "आकाश",
+        "vietnamese": "bầu trời"
+      },
+      {
+        "japanese": "雨 (あめ)",
+        "english": "rain",
+        "nepali": "वर्षा",
+        "vietnamese": "mưa"
+      },
+      {
+        "japanese": "車 (くるま)",
+        "english": "car",
+        "nepali": "कार",
+        "vietnamese": "xe hơi"
+      },
+      {
+        "japanese": "電車 (でんしゃ)",
+        "english": "train",
+        "nepali": "ट्रेन",
+        "vietnamese": "tàu điện"
+      },
+      {
+        "japanese": "バス",
+        "english": "bus",
+        "nepali": "बस",
+        "vietnamese": "xe buýt"
+      },
+      {
+        "japanese": "駅 (えき)",
+        "english": "station",
+        "nepali": "स्टेशन",
+        "vietnamese": "nhà ga"
+      },
+      {
+        "japanese": "飛行機 (ひこうき)",
+        "english": "airplane",
+        "nepali": "हवाईजहाज",
+        "vietnamese": "máy bay"
+      },
+      {
+        "japanese": "切符 (きっぷ)",
+        "english": "ticket",
+        "nepali": "टिकट",
+        "vietnamese": "vé"
+      },
+      {
+        "japanese": "お金 (おかね)",
+        "english": "money",
+        "nepali": "पैसा",
+        "vietnamese": "tiền"
+      },
+      {
+        "japanese": "仕事 (しごと)",
+        "english": "work",
+        "nepali": "काम",
+        "vietnamese": "công việc"
+      },
+      {
+        "japanese": "休み (やすみ)",
+        "english": "rest, holiday",
+        "nepali": "आराम, छुट्टी",
+        "vietnamese": "nghỉ ngơi, ngày nghỉ"
+      },
+      {
+        "japanese": "病院 (びょういん)",
+        "english": "hospital",
+        "nepali": "अस्पताल",
+        "vietnamese": "bệnh viện"
+      },
+      {
+        "japanese": "薬 (くすり)",
+        "english": "medicine",
+        "nepali": "औषधि",
+        "vietnamese": "thuốc"
+      },
+      {
+        "japanese": "電話 (でんわ)",
+        "english": "telephone",
+        "nepali": "टेलिफोन",
+        "vietnamese": "điện thoại"
+      },
+      {
+        "japanese": "テレビ",
+        "english": "TV",
+        "nepali": "टिभी",
+        "vietnamese": "tivi"
+      },
+      {
+        "japanese": "冷蔵庫 (れいぞうこ)",
+        "english": "refrigerator",
+        "nepali": "फ्रिज",
+        "vietnamese": "tủ lạnh"
+      },
+      {
+        "japanese": "洗濯機 (せんたくき)",
+        "english": "washing machine",
+        "nepali": "धोबी मेसिन",
+        "vietnamese": "máy giặt"
+      },
+      {
+        "japanese": "暑い (あつい)",
+        "english": "hot",
+        "nepali": "तातो",
+        "vietnamese": "nóng"
+      },
+      {
+        "japanese": "寒い (さむい)",
+        "english": "cold",
+        "nepali": "चिसो",
+        "vietnamese": "lạnh"
+      },
+      {
+        "japanese": "新しい (あたらしい)",
+        "english": "new",
+        "nepali": "नयाँ",
+        "vietnamese": "mới"
+      },
+      {
+        "japanese": "古い (ふるい)",
+        "english": "old",
+        "nepali": "पुरानो",
+        "vietnamese": "cũ"
+      },
+      {
+        "japanese": "難しい (むずかしい)",
+        "english": "difficult",
+        "nepali": "गाह्रो",
+        "vietnamese": "khó"
+      },
+      {
+        "japanese": "易しい (やさしい)",
+        "english": "easy",
+        "nepali": "सजिलो",
+        "vietnamese": "dễ"
+      },
+      {
+        "japanese": "楽しい (たのしい)",
+        "english": "fun",
+        "nepali": "मज्जा",
+        "vietnamese": "vui vẻ"
+      },
+      {
+        "japanese": "悲しい (かなしい)",
+        "english": "sad",
+        "nepali": "दुःखी",
+        "vietnamese": "buồn"
+      },
+      {
+        "japanese": "忙しい (いそがしい)",
+        "english": "busy",
+        "nepali": "व्यस्त",
+        "vietnamese": "bận rộn"
+      },
+      {
+        "japanese": "暇 (ひま)",
+        "english": "free (time)",
+        "nepali": "फुर्सद",
+        "vietnamese": "rảnh rỗi"
+      },
+      {
+        "japanese": "美味しい (おいしい)",
+        "english": "delicious",
+        "nepali": "मिठो",
+        "vietnamese": "ngon"
+      },
+      {
+        "japanese": "まずい",
+        "english": "bad-tasting",
+        "nepali": "नराम्रो स्वाद",
+        "vietnamese": "dở"
+      },
+      {
+        "japanese": "多い (おおい)",
+        "english": "many",
+        "nepali": "धेरै",
+        "vietnamese": "nhiều"
+      },
+      {
+        "japanese": "少ない (すくない)",
+        "english": "few",
+        "nepali": "थोरै",
+        "vietnamese": "ít"
+      },
+      {
+        "japanese": "近い (ちかい)",
+        "english": "near",
+        "nepali": "नजिक",
+        "vietnamese": "gần"
+      },
+      {
+        "japanese": "遠い (とおい)",
+        "english": "far",
+        "nepali": "टाढा",
+        "vietnamese": "xa"
+      },
+      {
+        "japanese": "早い (はやい)",
+        "english": "early, fast",
+        "nepali": "चाँडो, छिटो",
+        "vietnamese": "sớm, nhanh"
+      },
+      {
+        "japanese": "遅い (おそい)",
+        "english": "late, slow",
+        "nepali": "ढिलो",
+        "vietnamese": "muộn, chậm"
+      },
+      {
+        "japanese": "長い (ながい)",
+        "english": "long",
+        "nepali": "लामो",
+        "vietnamese": "dài"
+      },
+      {
+        "japanese": "短い (みじかい)",
+        "english": "short",
+        "nepali": "छोटो",
+        "vietnamese": "ngắn"
+      },
+      {
+        "japanese": "広い (ひろい)",
+        "english": "wide, spacious",
+        "nepali": "फराकिलो",
+        "vietnamese": "rộng"
+      },
+      {
+        "japanese": "狭い (せまい)",
+        "english": "narrow",
+        "nepali": "सानो (स्थान)",
+        "vietnamese": "hẹp"
+      },
+      {
+        "japanese": "明るい (あかるい)",
+        "english": "bright",
+        "nepali": "उज्यालो",
+        "vietnamese": "sáng"
+      },
+      {
+        "japanese": "暗い (くらい)",
+        "english": "dark",
+        "nepali": "अँध्यारो",
+        "vietnamese": "tối"
+      },
+      {
+        "japanese": "軽い (かるい)",
+        "english": "light (weight)",
+        "nepali": "हलुका",
+        "vietnamese": "nhẹ"
+      },
+      {
+        "japanese": "重い (おもい)",
+        "english": "heavy",
+        "nepali": "गह्रौं",
+        "vietnamese": "nặng"
+      },
+      {
+        "japanese": "いい",
+        "english": "good",
+        "nepali": "राम्रो",
+        "vietnamese": "tốt"
+      },
+      {
+        "japanese": "悪い (わるい)",
+        "english": "bad",
+        "nepali": "खराब",
+        "vietnamese": "xấu"
+      },
+      {
+        "japanese": "可愛い (かわいい)",
+        "english": "cute",
+        "nepali": "प्यारो",
+        "vietnamese": "dễ thương"
+      },
+      {
+        "japanese": "綺麗 (きれい)",
+        "english": "beautiful, clean",
+        "nepali": "सुन्दर, सफा",
+        "vietnamese": "đẹp, sạch"
+      },
+      {
+        "japanese": "汚い (きたない)",
+        "english": "dirty",
+        "nepali": "फोहोर",
+        "vietnamese": "bẩn"
+      },
+      {
+        "japanese": "強い (つよい)",
+        "english": "strong",
+        "nepali": "बलियो",
+        "vietnamese": "mạnh"
+      },
+      {
+        "japanese": "弱い (よわい)",
+        "english": "weak",
+        "nepali": "कमजोर",
+        "vietnamese": "yếu"
+      },
+      {
+        "japanese": "寝る (ねる)",
+        "english": "to sleep",
+        "nepali": "सुत्नु",
+        "vietnamese": "ngủ"
+      },
+      {
+        "japanese": "起きる (おきる)",
+        "english": "to wake up",
+        "nepali": "उठ्नु",
+        "vietnamese": "thức dậy"
+      },
+      {
+        "japanese": "勉強 (べんきょう)",
+        "english": "study",
+        "nepali": "पढाई",
+        "vietnamese": "học tập"
+      },
+      {
+        "japanese": "教える (おしえる)",
+        "english": "to teach",
+        "nepali": "सिकाउनु",
+        "vietnamese": "dạy"
+      },
+      {
+        "japanese": "分かる (わかる)",
+        "english": "to understand",
+        "nepali": "बुझ्नु",
+        "vietnamese": "hiểu"
+      },
+      {
+        "japanese": "知る (しる)",
+        "english": "to know",
+        "nepali": "जान्नु",
+        "vietnamese": "biết"
+      }
+    ]
+  }

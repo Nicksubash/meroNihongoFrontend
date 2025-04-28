@@ -6,6 +6,7 @@ import About from './pages/About';
 import { AuthProvider } from './services/authContext/AuthContext';
 import Profile from './pages/Profile';
 import MockTest from './pages/MockTest';
+import N5 from './pages/JLPT/N5';
 
 export default function App() {
     return (
@@ -45,6 +46,7 @@ export default function App() {
                     }
                 />
                 <Route path="/mock-test" element={<MockTest />} />
+                <Route path="/vocabulary/n5" element={<N5 />} />
 
             </Routes>
         </Router>
